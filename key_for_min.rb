@@ -5,10 +5,7 @@ def key_for_min_value(name_hash)
   if name_hash == {}
     return nil 
   else 
-    arr_vals = []
-    name_hash.each do |key, value| 
-      arr_vals.push(value)  
-    end  
+    min_max = name_hash.minmax_by { |key, value| } 
   end 
   
 end
