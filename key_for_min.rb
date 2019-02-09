@@ -8,5 +8,5 @@ def key_for_min_value(name_hash)
   else 
     min = name_hash.min_by { |key, value| key}
   end 
-  min[]
+  min[0]
 end
