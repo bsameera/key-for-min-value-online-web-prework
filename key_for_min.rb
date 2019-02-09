@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   if name_hash == {}
     return nil 
   else 
-    min = name_hash.min_by { |key, value| key}
+    name_hash.min_by { |key, value| key}
   end 
   min[0]
 end
